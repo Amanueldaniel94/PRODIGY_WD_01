@@ -5,26 +5,27 @@ body {
     text-align: center;
 }
 
+
 /* Navigation Bar */
 nav {
     position: fixed;
     width: 100%;
     top: 0;
     left: 0;
-    background: #333;
-    padding: 15px 0;
+    background:green;
+    padding: 20px 0;
     transition: background 0.3s ease-in-out;
 }
 
 nav ul {
     list-style: none;
     display: flex;
-    justify-content: center;
+    justify-content:right;
     padding: 0;
 }
 
 nav ul li {
-    margin: 0 15px;
+    margin: 0 40px;
 }
 
 nav ul li a {
@@ -35,9 +36,10 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
+
 /* Hover effect: Change color when hovering over menu items */
 nav ul li a:hover {
-    color: yellow;
+    color:black;
 }
 
 /* Scroll effect: Change background color when scrolling */
