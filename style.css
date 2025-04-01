@@ -13,6 +13,7 @@ nav {
     top: 0;
     left: 0;
     background:black;
+    background:white;
     padding: 20px 0;
     transition: background 0.3s ease-in-out;
 }
@@ -30,7 +31,7 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: white;
+    color: green;
     font-size: 18px;
     padding: 10px;
     transition: color 0.3s ease;
@@ -69,10 +70,17 @@ section {
 
 
 
+/*Home section*/
+ #home{
+  background-color:lightgray;
+} 
+
 /* About Section */
 #about {
     padding: 60px 20px;
     background: lightgray;
+    background: grey;
+
 }
 
 .about-container {
@@ -124,6 +132,8 @@ section {
     text-align: center;
     padding: 60px 20px;
     background: lightgray;
+    background: grey;
+
 }
 
 #why-choose-us h2 {
@@ -144,7 +154,7 @@ section {
 
 /* Individual Feature Box */
 .feature-box {
-    background: #f9f9f9;
+    background:white;
     padding: 20px;
     border-radius: 10px;
     text-align: center;
@@ -159,7 +169,8 @@ section {
 
 .feature-box h3 {
     font-size: 20px;
-    color: black;
+    font-size: 22px;a
+    color:black;
     margin: 10px 0;
 }
 
@@ -177,6 +188,7 @@ section {
     text-align: center;
     padding: 60px 20px;
     background: lightgray;
+    background: grey;
 }
 
 #services h2 {
@@ -250,7 +262,7 @@ section {
 
 /* Contact Container */
 .contact-container {
-    display: flex;
+    display:flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 40px;
@@ -306,6 +318,7 @@ section {
     color: #444;
     margin: 10px 0;
 }
+.contact-info
 
 
 /* Contact Info Section */
