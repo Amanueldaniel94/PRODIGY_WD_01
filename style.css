@@ -12,7 +12,7 @@ nav {
     width: 100%;
     top: 0;
     left: 0;
-    background:green;
+    background:black;
     padding: 20px 0;
     transition: background 0.3s ease-in-out;
 }
@@ -36,15 +36,9 @@ nav ul li a {
     transition: color 0.3s ease;
 }
 
-
 /* Hover effect: Change color when hovering over menu items */
 nav ul li a:hover {
-    color:black;
-}
-
-/* Scroll effect: Change background color when scrolling */
-.scrolled {
-    background: #555;
+    color:lightgreen;
 }
 
 /* Sections for scrolling */
@@ -72,54 +66,13 @@ section {
 
 }
 
-/* Hide all slides by default */
-.slide{
-    display:none;
-}
 
-/* Style images */
-.slide img {
-    width: 100%;
-    height: 80vh;
-    object-fit: cover;
-    border-radius: 10px;
-}
 
-/* Fade-in effect */
-.fade {
-    animation: fadeEffect 1.5s ease-in-out;
-}
-
-@keyframes fadeEffect {
-    from { opacity: 0.4; }
-    to { opacity: 1; }
-}
-
-/* Navigation Buttons */
-.prev, .next {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    font-size: 30px;
-    color: white;
-    background-color: rgba(0, 0, 0, 0.5);
-    padding: 10px;
-    border-radius: 50%;
-    cursor: pointer;
-    transition: 0.3s;
-}
-
-.prev { left: 20px; }
-.next { right: 20px; }
-
-.prev:hover, .next:hover {
-    background-color: rgba(0, 0, 0, 0.8);
-}
 
 /* About Section */
 #about {
     padding: 60px 20px;
-    background: #f9f9f9;
+    background: lightgray;
 }
 
 .about-container {
@@ -162,11 +115,15 @@ section {
     box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
 
+
+
+
+
 /* Why Choose Us Section */
 #why-choose-us {
     text-align: center;
     padding: 60px 20px;
-    background: white;
+    background: lightgray;
 }
 
 #why-choose-us h2 {
@@ -201,8 +158,8 @@ section {
 }
 
 .feature-box h3 {
-    font-size: 22px;
-    color: #007bff;
+    font-size: 20px;
+    color: black;
     margin: 10px 0;
 }
 
@@ -219,7 +176,7 @@ section {
 #services {
     text-align: center;
     padding: 60px 20px;
-    background: #f9f9f9;
+    background: lightgray;
 }
 
 #services h2 {
@@ -264,8 +221,8 @@ section {
 
 /* Service Title */
 .service-card h3 {
-    font-size: 22px;
-    color: #007bff;
+    font-size: 20px;
+    color: black;
     margin: 10px 0;
 }
 
@@ -274,11 +231,15 @@ section {
     font-size: 16px;
     color: #555;
 }
+
+
+
+
 /* Contact Section */
 #contact {
     text-align: center;
     padding: 60px 20px;
-    background: #f9f9f9;
+    background:lightgray;
 }
 
 #contact h2 {
@@ -325,7 +286,7 @@ section {
 
 /* Submit Button */
 .contact-form button {
-    background: #007bff;
+    background: black;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -336,7 +297,7 @@ section {
 }
 
 .contact-form button:hover {
-    background: #0056b3;
+    background: lightgreen;
 }
 
 /* Contact Info */
@@ -346,18 +307,26 @@ section {
     margin: 10px 0;
 }
 
+
+/* Contact Info Section */
+.contact-info {
+    background: white; /* Background color */
+    color: black; /* Text color */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    width: fit-content; /* Ensures it does not stretch beyond content */
+    margin: 0 auto; /* Centers the box */
+    text-align: center;
+}
+
 /* Social Media Icons */
-.social-icons a img {
-    width: 40px;
-    margin: 10px;
-    transition: 0.3s;
+.contact-info a img {
+    width: 30px; /* Adjust the size of the icons */
+    height: auto;
+    margin: 5px; /* Space between icons */
+    transition: transform 0.3s ease;
 }
 
-.social-icons a img:hover {
-    transform: scale(1.1);
-}
-
-/* Google Map */
-.map-container {
-    margin-top: 40px;
+.contact-info a img:hover {
+    transform: scale(1.2); /* Slight zoom effect on hover */
 }
